@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="JunitTest"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/bonds/Downloads/javamail1_4_7/javamail-1.4.7/lib/dsn.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bonds/Downloads/javamail1_4_7/javamail-1.4.7/lib/gimap.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bonds/Downloads/javamail1_4_7/javamail-1.4.7/lib/imap.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bonds/Downloads/javamail1_4_7/javamail-1.4.7/lib/mailapi.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bonds/Downloads/javamail1_4_7/javamail-1.4.7/lib/pop3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bonds/Downloads/javamail1_4_7/javamail-1.4.7/lib/smtp.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="S:/Jar files/controlsfx-8.40.12.jar"/>
+	<classpathentry kind="lib" path="S:/Jar files/mail.jar"/>
+	<classpathentry kind="lib" path="S:/Jar files/sqlite-jdbc-3.8.10.1.jar"/>
+	<classpathentry kind="lib" path="S:/Jar files/jfoenix-1.4.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

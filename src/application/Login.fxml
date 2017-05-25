@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="332.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.LoginController">
+   <children>
+      <Label layoutX="153.0" layoutY="89.0" prefHeight="30.0" prefWidth="70.0" text="Username">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="153.0" layoutY="157.0" prefHeight="30.0" prefWidth="70.0" text="Password">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="124.0" fitWidth="124.0" layoutX="14.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../loginImg.png" />
+         </image>
+      </ImageView>
+      <JFXTextField fx:id="txtUser" layoutX="226.0" layoutY="89.0" maxWidth="220.0" minWidth="220.0" prefHeight="30.0" prefWidth="220.0" />
+      <JFXPasswordField fx:id="txtPwd" layoutX="226.0" layoutY="151.0" maxWidth="220.0" minWidth="220.0" prefHeight="30.0" prefWidth="220.0" />
+      <JFXButton fx:id="btnLogin" buttonType="RAISED" layoutX="239.0" layoutY="210.0" maxHeight="30.0" maxWidth="100.0" onAction="#loginHandler" prefHeight="30.0" prefWidth="100.0" ripplerFill="WHITE" style="-fx-background-color: #3333ff; -fx-border-radius: 5;" text="Login" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="13.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnRegister" buttonType="RAISED" layoutX="351.0" layoutY="210.0" maxHeight="30.0" maxWidth="100.0" onAction="#registerHandler" prefHeight="30.0" prefWidth="100.0" ripplerFill="WHITE" style="-fx-background-color: #3333ff; -fx-border-radius: 5;" text="Register" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="13.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnForgotPwd" buttonType="RAISED" layoutX="232.0" layoutY="267.0" onAction="#forgotPassword" prefHeight="30.0" prefWidth="140.0" ripplerFill="#1f2079" text="Forgot Password ?" textFill="#3333ff">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font>
+      </JFXButton>
+      <Label fx:id="lblError" layoutX="48.0" layoutY="37.0" prefHeight="30.0" prefWidth="391.0" textFill="#f50909">
+         <font>
+            <Font name="Arial Bold" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
